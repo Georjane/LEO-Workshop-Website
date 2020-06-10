@@ -11,6 +11,8 @@ nav {
   height: 90px; }
   nav img {
     height: 80px; }
+  nav .img1 {
+    height: 40px; }
   nav .navlinks {
     width: 65%; }
     nav .navlinks a {
@@ -47,9 +49,66 @@ header {
     width: 70%;
     margin-top: 25px; }
 
+.sec1 {
+  background-color: #272a31;
+  background-image: url("../sass/x.png");
+  background-repeat: repeat;
+  color: white; }
+  .sec1 .griddiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-top: 10px; }
+    .sec1 .griddiv div {
+      background-color: rgba(175, 168, 168, 0.116);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 2px solid #272a31;
+      font-size: small;
+      padding: 5px; }
+      .sec1 .griddiv div h4 {
+        color: #ec5242; }
+        @media screen and (max-width: 767px) {
+          .sec1 .griddiv div h4 {
+            align-self: center;
+            font-size: 1.5em; } }
+      @media screen and (max-width: 767px) {
+        .sec1 .griddiv div {
+          display: grid;
+          grid-template-columns: 1fr 3fr 5fr;
+          text-align: start; } }
+    .sec1 .griddiv div:hover {
+      border-color: #d3d3d3; }
+    @media screen and (max-width: 960px) {
+      .sec1 .griddiv {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; } }
+    @media screen and (max-width: 767px) {
+      .sec1 .griddiv {
+        width: 95%;
+        grid-template-columns: 1fr; } }
+  .sec1 i {
+    font-size: 2em;
+    align-self: center;
+    justify-self: center;
+    margin: 0.3em; }
+  .sec1 button {
+    background-color: #ec5242;
+    color: white; }
+  .sec1 a {
+    text-decoration: underline; }
+
 body {
   font-family: 'Lato', sans-serif; }
 
 .maxwidth {
   max-width: 1100px;
   margin: auto; }
+
+.redline {
+  width: 70px;
+  border-top: #ec5242 2px solid;
+  margin: auto;
+  margin-bottom: 3em; }
