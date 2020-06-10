@@ -1,0 +1,33 @@
+footer {
+    div {
+        width: 100%;
+
+        @media screen and (max-width: 767px) {
+            width: 95%;
+            font-size: small;
+        }
+    }
+    img {
+        height: 100px;
+    }
+
+    .footericons a {
+        color: $dark;
+    }
+
+    .footerlinks {
+        
+        list-style-type: none;
+
+        a {
+            color: $dark;
+            text-decoration: none;
+            padding: 0 1vw;
+            border-right: rgba(255, 8, 0, 0.356) solid 1px;
+        }
+    }
+
+    a:hover {
+        color: $red;
+    }
+}

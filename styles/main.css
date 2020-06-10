@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 .navdiv {
-  background-color: white; }
+  background-color: white;
+  border-bottom: #ec5242 3px solid; }
 
 nav {
   height: 90px; }
@@ -106,6 +107,33 @@ header {
 .sec2 small {
   color: #ec5242;
   font-style: italic; }
+
+aside {
+  background-color: #272a31; }
+
+footer div {
+  width: 100%; }
+  @media screen and (max-width: 767px) {
+    footer div {
+      width: 95%;
+      font-size: small; } }
+
+footer img {
+  height: 100px; }
+
+footer .footericons a {
+  color: #272a31; }
+
+footer .footerlinks {
+  list-style-type: none; }
+  footer .footerlinks a {
+    color: #272a31;
+    text-decoration: none;
+    padding: 0 1vw;
+    border-right: rgba(255, 8, 0, 0.356) solid 1px; }
+
+footer a:hover {
+  color: #ec5242; }
 
 body {
   font-family: 'Lato', sans-serif; }
