@@ -30,3 +30,22 @@ body {
     border: $red 5px solid;
     margin-right: 2em;
 }
+
+#ticket-table {
+  border: $red 4px double;
+  border-style: dotted;
+}
+
+.ticket-para {
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.submit-btn {
+  background-color: $red;
+  color: white;
+  font-size: large;
+  border-radius: 15px 0;
+}

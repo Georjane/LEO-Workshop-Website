@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="images/logo1.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css"> 
+    <title>LEO Workshop 2020</title>
+</head>
+<body>
+   <div class="container-fluid">       
+     <div class="navdiv sticky-top">
+       <nav class="navbar d-none d-md-flex maxwidth ">
+          <img class="navbar-brand" src="images/logo2.jpg" alt="LEO logo"> 
+          <div class="navlinks d-md-flex justify-content-between align">          
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Activities</a>
+            <a href="#">Tickets</a>
+            <a href="#">Contact Us</a> 
+            <button>Join Us</button>  
+            </div>         
+        </nav>
+        <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3">
+          <span class="fas fa-bars"></span>
+          <img class="navbar-brand img1" src="images/logo2.jpg" alt="LEO logo">
+        </nav>
+     </div>     
+    <form action="#">
+     <section>
+        <h2 class="text-center mt-5">Select Tickets</h2>
+        <div class="redline"></div>
+        <h5 class=" ticket-para border mb-4"><strong class="redtext">Step 1: </strong>  Please select the day(s) you wish to join</h5>
+        <div class="table-responsive">
+            <table class="maxwidth table table-bordered text-center" id="ticket-table">
+                <thead class="font-weight-bold">                    
+                    <td>Ticket</td>
+                    <td>1 Day Ticket</td>
+                    <td >2 Days Ticket</td>
+                </thead>
+                <tr>
+                    <td class="font-weight-bold">Date</td>
+                    <td>20th OCT</td>
+                    <td>20th - 21st OCT</td>
+                <tr>
+                <tr>
+                    <td class="font-weight-bold">Normal</td>
+                    <td class="redtext">10,000FCFA</td>
+                    <td class="redtext">20,000FCFA</td>
+                </tr>
+                <tr>
+                    <td class="font-weight-bold">Students</td>
+                    <td class="redtext">5,000FCFA</td>
+                    <td class="redtext">10,000FCFA</td>
+                </tr>
+            <table>
+        </div>
+     </section>
+
+     <section>
+        <h2 class="text-center mt-5">Select Lunch</h2>
+        <div class="redline"></div>
+         <h5 class=" ticket-para border mb-4"><strong class="redtext">Step 2: </strong>  Please select your lunch</h5>
+
+         <div class="maxwidth">
+             <h6 class="redtext text-center font-weight-bolder py-3 menutop mb-0">Day 1</h6>
+            <div class=" d-flex justify-content-around py-4 mt-0 menubody">
+                <label for="menu1">Menu 1
+                    <input id="menu1" type="radio" name="menuA">
+                </label>
+                <label for="menu2">Menu 2
+                    <input id="menu2" type="radio" name="menuA">
+                </label>
+                <label for="menu3">Menu 3
+                    <input id="menu3" type="radio" name="menuA">
+                </label>
+            </div>
+        </div>
+        <div class="maxwidth mt-4">
+             <h6 class="redtext text-center font-weight-bolder py-3 menutop mb-0">Day 2</h6>
+            <div class=" d-flex justify-content-around py-4 mt-0 menubody">
+                <label for="menu1">Menu 1
+                    <input id="menu1" type="radio" name="menuB">
+                </label>
+                <label for="menu2">Menu 2
+                    <input id="menu2" type="radio" name="menuB">
+                </label>
+                <label for="menu3">Menu 3
+                    <input id="menu3" type="radio" name="menuB">
+                </label>
+            </div>
+        </div>
+     </section>
+
+     <div class="maxwidth d-flex justify-content-around mb-5"><button class=" py-2 px-4 mt-5 submit-btn" type="submit">Submit</button></div>
+    </form>
+
+      <footer>
+        <div class="maxwidth mx-auto">
+              <div class="d-flex footericons justify-content-between py-3">
+                <span class="w-75 pl-3">2020 Copyrights</span>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-wifi"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+              <ul class="d-inline-flex footerlinks justify-content-between">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">Support Us</a></li>
+                    <li><a href="#">More</a></li>
+              </ul>
+          </div>
+        </footer>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,15 +1,18 @@
 header {
     background-image: 
-      linear-gradient(to top right, $red, $light),
-      url('download.jpg');
+      linear-gradient(to top right, rgba(255, 0, 0, 0.527), black),
+      url('/images/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    color: white;
 
     h3,
     h1 {
-        background: -webkit-linear-gradient(red, $dark);
+        background: -webkit-linear-gradient(red, white);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

@@ -4,6 +4,15 @@
   border: 0;
   box-sizing: border-box; }
 
+.redtext {
+  color: #ec5242; }
+
+.menutop {
+  background-color: #ec53424b; }
+
+.menubody {
+  background-color: #d3d3d3bb; }
+
 .navdiv {
   background-color: white;
   border-bottom: #ec5242 3px solid; }
@@ -34,14 +43,17 @@ nav {
     font-size: 30px; }
 
 header {
-  background-image: linear-gradient(to top right, #ec5242, #d3d3d3), url("download.jpg");
+  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.527), black), url("/images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center; }
+  align-items: center;
+  color: white; }
   header h3,
   header h1 {
-    background: -webkit-linear-gradient(red, #272a31);
+    background: -webkit-linear-gradient(red, white);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
@@ -154,3 +166,19 @@ body {
   border-radius: 50%;
   border: #ec5242 5px solid;
   margin-right: 2em; }
+
+#ticket-table {
+  border: #ec5242 4px double;
+  border-style: dotted; }
+
+.ticket-para {
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px; }
+
+.submit-btn {
+  background-color: #ec5242;
+  color: white;
+  font-size: large;
+  border-radius: 15px 0; }
