@@ -1,0 +1,13 @@
+@import "reset";
+@import "colors";
+@import "navbar";
+@import "header";
+
+body {
+  font-family: 'Lato', sans-serif;  
+}
+
+.maxwidth {
+  max-width: 1000px;
+  margin: auto;
+}

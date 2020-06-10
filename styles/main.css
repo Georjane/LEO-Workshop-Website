@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+nav {
+  height: 90px;
+  position: sticky; }
+  nav img {
+    height: 80px; }
+  nav .navlinks {
+    width: 65%; }
+    nav .navlinks a {
+      color: #272a31; }
+    nav .navlinks a:hover {
+      color: #ec5242;
+      text-decoration: none; }
+  nav button {
+    border: #ec5242 4px solid;
+    color: #ec5242;
+    padding: 5px 10px;
+    background-color: white; }
+
+.smallnav {
+  height: 50px;
+  padding-top: 10px; }
+  .smallnav .fa-bars {
+    font-size: 30px; }
+
+header {
+  height: 500px;
+  background-color: red; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.maxwidth {
+  max-width: 1000px;
+  margin: auto; }
