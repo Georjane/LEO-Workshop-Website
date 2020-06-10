@@ -1,4 +1,22 @@
 header {
-    height: 500px;
-    background-color: red;
+    background-image: 
+      linear-gradient(to top right, $red, $light),
+      url('download.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    h3,
+    h1 {
+        background: -webkit-linear-gradient(red, $dark);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    span {
+        display: inline-block;
+        width: 70%;
+        margin-top: 25px;
+    }
 }

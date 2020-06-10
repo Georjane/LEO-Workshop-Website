@@ -4,9 +4,11 @@
   border: 0;
   box-sizing: border-box; }
 
+.navdiv {
+  background-color: white; }
+
 nav {
-  height: 90px;
-  position: sticky; }
+  height: 90px; }
   nav img {
     height: 80px; }
   nav .navlinks {
@@ -29,12 +31,25 @@ nav {
     font-size: 30px; }
 
 header {
-  height: 500px;
-  background-color: red; }
+  background-image: linear-gradient(to top right, #ec5242, #d3d3d3), url("download.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center; }
+  header h3,
+  header h1 {
+    background: -webkit-linear-gradient(red, #272a31);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  header span {
+    display: inline-block;
+    width: 70%;
+    margin-top: 25px; }
 
 body {
   font-family: 'Lato', sans-serif; }
 
 .maxwidth {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto; }
