@@ -3,6 +3,7 @@
 @import "navbar";
 @import "header";
 @import "section1";
+@import "section2";
 
 body {
   font-family: 'Lato', sans-serif;  
@@ -18,4 +19,12 @@ body {
   border-top: $red 2px solid;
   margin: auto;
   margin-bottom: 3em;
+}
+
+.roundimg {
+    height: 130px;
+    width: 110px;
+    border-radius: 50%;
+    border: $red 5px solid;
+    margin-right: 2em;
 }
