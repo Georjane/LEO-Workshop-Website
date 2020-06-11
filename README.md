@@ -8,6 +8,13 @@ The content presents a workshop organized by the Ladies Empowerment Organization
 
 The project was completed with the aim of portraying a deep understanding of the HTML5, CSS3, Bootstrap, Sass and their best practises.
 The website has 3 main pages, the home page, the about page and the tickets page.
+Each of these pages consists of a navigation bar and a footer element.
+
+- the homepage has several sections that contain background images and linear gradients. Some sections were positioned using flex, others used the grid system while some used bootstrap. the navigation bar used floats also to position the hidden menu list.
+
+- the about page has a similar layout to the home page and has in addition to it, a carousel slide shows that were displayed using bootstrap. It also has a subscribe form to be filled
+
+- the tickets page has a form with 2 sections, the table and the input elements with radio buttons.
 
 This project covers the following HTML and CSS3 concepts
 - Sass

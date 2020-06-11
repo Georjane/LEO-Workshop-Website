@@ -91,19 +91,19 @@ nav div button {
 }
 
 header {
-  background-image: linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)), url("../images/download.jpg");
+  background-image: linear-gradient(to top right, rgba(255, 251, 251, 0.884), rgba(21, 24, 201, 0.884)), url("../images/download.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 header h3,
 header h1 {
-  background: -webkit-linear-gradient(red, white);
+  background: -webkit-linear-gradient(red, rgb(7, 7, 7));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
