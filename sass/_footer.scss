@@ -1,10 +1,8 @@
 footer {
     div {
-        width: 100%;
-
-        @media screen and (max-width: 767px) {
-            width: 95%;
-            font-size: small;
+        font-size: small;
+        @media screen and (min-width: 768px) {
+                             
         }
     }
     img {

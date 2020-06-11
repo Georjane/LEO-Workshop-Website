@@ -7,6 +7,9 @@
 .redtext {
   color: #ec5242; }
 
+.redbackground {
+  background-color: #ec5242; }
+
 .menutop {
   background-color: #ec53424b; }
 
@@ -43,7 +46,7 @@ nav {
     font-size: 30px; }
 
 header {
-  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.527), black), url("/images/download.jpg");
+  background-image: linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)), url("/images/download.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -69,39 +72,41 @@ header {
   color: white; }
   .sec1 .griddiv {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    margin-top: 10px; }
-    .sec1 .griddiv div {
-      background-color: rgba(175, 168, 168, 0.116);
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      border: 2px solid #272a31;
-      font-size: small;
-      padding: 5px; }
-      .sec1 .griddiv div h4 {
-        color: #ec5242; }
-        @media screen and (max-width: 767px) {
-          .sec1 .griddiv div h4 {
-            align-self: center;
-            font-size: 1.5em; } }
-      @media screen and (max-width: 767px) {
-        .sec1 .griddiv div {
-          display: grid;
-          grid-template-columns: 1fr 3fr 5fr;
-          text-align: start; } }
-    .sec1 .griddiv div:hover {
-      border-color: #d3d3d3; }
-    @media screen and (max-width: 960px) {
+    margin-top: 10px;
+    width: 95%;
+    grid-template-columns: 1fr; }
+    @media only screen and (min-width: 768px) {
       .sec1 .griddiv {
         width: 80%;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px; } }
-    @media screen and (max-width: 767px) {
+    @media only screen and (min-width: 960px) {
       .sec1 .griddiv {
-        width: 95%;
-        grid-template-columns: 1fr; } }
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px; } }
+    .sec1 .griddiv div {
+      background-color: rgba(175, 168, 168, 0.116);
+      display: grid;
+      grid-template-columns: 1fr 3fr 5fr;
+      grid-template-rows: auto;
+      text-align: start;
+      border: 2px solid #272a31;
+      font-size: small;
+      padding: 5px;
+      justify-content: center;
+      align-content: center; }
+      .sec1 .griddiv div h4 {
+        color: #ec5242;
+        align-self: center;
+        font-size: 1.5em; }
+      @media only screen and (min-width: 768px) {
+        .sec1 .griddiv div {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr 2fr;
+          text-align: center;
+          align-items: start; } }
+    .sec1 .griddiv div:hover {
+      border-color: #d3d3d3; }
   .sec1 i {
     font-size: 2em;
     align-self: center;
@@ -124,11 +129,7 @@ aside {
   background-color: #272a31; }
 
 footer div {
-  width: 100%; }
-  @media screen and (max-width: 767px) {
-    footer div {
-      width: 95%;
-      font-size: small; } }
+  font-size: small; }
 
 footer img {
   height: 100px; }
@@ -146,6 +147,34 @@ footer .footerlinks {
 
 footer a:hover {
   color: #ec5242; }
+
+.activityshow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (min-width: 768px) {
+    .activityshow {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; } }
+  .activityshow .slidediv {
+    width: 80vw; }
+    @media screen and (min-width: 768px) {
+      .activityshow .slidediv {
+        width: 25vw; } }
+
+.redborder {
+  border: solid 5px #ec5242;
+  border-radius: 10px; }
+
+.redborder:hover {
+  border-color: #272a31; }
+
+.subscribe {
+  width: 100%;
+  background-color: #272a31;
+  border-radius: 5px; }
 
 body {
   font-family: 'Lato', sans-serif; }
@@ -182,3 +211,7 @@ body {
   color: white;
   font-size: large;
   border-radius: 15px 0; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }

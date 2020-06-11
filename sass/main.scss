@@ -6,6 +6,7 @@
 @import "section2";
 @import "aside";
 @import "footer";
+@import "about";
 
 body {
   font-family: 'Lato', sans-serif;  
@@ -49,3 +50,9 @@ body {
   font-size: large;
   border-radius: 15px 0;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+

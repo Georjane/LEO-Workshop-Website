@@ -8,6 +8,9 @@
     <link rel="icon" href="images/logo1.jpg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <title>LEO Workshop 2020</title>
 </head>
 <body>
@@ -15,7 +18,7 @@
      <div class="navdiv sticky-top">
        <nav class="navbar d-none d-md-flex maxwidth ">
           <img class="navbar-brand" src="images/logo2.jpg" alt="LEO logo"> 
-          <div class="navlinks d-md-flex justify-content-between align">          
+          <div class="navlinks d-md-flex justify-content-between align-items-center">          
             <a href="index.html">Home</a>
             <a href="#">About Us</a>
             <a href="#">Activities</a>
@@ -32,7 +35,7 @@
        
     <header class="py-lg-5">
         <div class="maxwidth pl-3 py-5">
-          <h3 class="d-lg-none">Ladies Empowerment Organization Workshop 2020</h3>          
+          <h3 class="d-lg-none text-center">Ladies Empowerment Organization Workshop 2020</h3>          
           <h3 class="display-4 d-none d-lg-block text-center">Ladies Empowerment Organization Workshop 2020</h3>
           <p class="text-center w-75 mx-auto mt-4">LEO is group of Women making the world a better place by encouraging and changing the mindset of women. They have as slogan "Empower the many, mentors the few".<br>
           Every year in commemoration of the world day for Women in Tech, they bring women together from across the globe under a single roof. These women interact with each other, share their experiences and encourage each other.<br> In addition to that, keynote speakers give them a thorough understanding of their personal and professional strengths in the Tech World. <br>Its a most attend workshop. Feedbacks gotten after these workshops are always so inspiring.</p>
@@ -41,15 +44,135 @@
     </header>
 
     <section>
-        <h2 class="text-center">Our Online Training</h2>
+        <h2 class="text-center mt-5">Our Activities</h2>
         <div class="redline"></div>
+        <div class="maxwidth activityshow">
         
+        <div id="slides1" class="carousel mb-5 slidediv" data-ride="carousel">
+          <label for="slides1" class="redtext font-weight-bolder">Leadership Seminars</label>        
+              <ul class="carousel-indicators">
+                <li data-target="#slides1" data-slide-to="0" class="active"></li>
+                <li data-target="#slides1" data-slide-to="1"></li>
+                <li data-target="#slides1" data-slide-to="2"></li>
+              </ul>
+
+             
+              <div class="carousel-inner redborder">
+                <div class="carousel-item active">
+                  <img src="images/seminar1.jpg" alt="Seminar">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/seminar2.jpg" alt="Seminar">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/seminar3.jpg" alt="Seminar">
+                </div>
+              </div>
+
+             
+              <a class="carousel-control-prev" href="#slides1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#slides1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+              <label for="slides1" class="font-weight-bold">As a leader of a team the expectations and needs of the people under her care and of the managers above her need to be faced. Leadership seminars are an opportunity to become aware of these and to learn how to competently react to them</label>
+          </div>
+
+
+        
+        <div id="slides2" class="carousel mb-5 slidediv" data-ride="carousel">
+        <label for="slides2" class="redtext">Outreach Programs</label>
+              <ul class="carousel-indicators">
+                <li data-target="#slides2" data-slide-to="0" class="active"></li>
+                <li data-target="#slides2" data-slide-to="1"></li>
+                <li data-target="#slides2" data-slide-to="2"></li>
+              </ul>
+
+             
+              <div class="carousel-inner redborder">
+                <div class="carousel-item active">
+                  <img src="images/outreach1.jpg" alt="outreach">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/outreach2.jpg" alt="outreach">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/outreach3.jpg" alt="outreach">
+                </div>
+              </div>
+
+             
+              <a class="carousel-control-prev" href="#slides2" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#slides2" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+              <label for="slides1" class="font-weight-bold">Programs designed to help and encourage disadvantaged members of the community by providing services to any population that might not otherwise have access to those services.</label>
+          </div>
+
+          
+        <div id="slides3" class="carousel mb-5 slidediv" data-ride="carousel">
+        <label for="slides3" class="redtext">Online Campaigns</label>
+              <ul class="carousel-indicators">
+                <li data-target="#slides3" data-slide-to="0" class="active"></li>
+                <li data-target="#slides3" data-slide-to="1"></li>
+                <li data-target="#slides3" data-slide-to="2"></li>
+              </ul>
+
+             
+              <div class="carousel-inner redborder">
+                <div class="carousel-item active">
+                  <img src="images/online1.jpg" alt="campaigns" class="activityimg">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/online2.jpg" alt="campaigns" class="activityimg">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/online3.jpg" alt="campaigns" class="activityimg">
+                </div>
+              </div>
+
+             
+              <a class="carousel-control-prev" href="#slides3" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#slides3" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+              <label for="slides1" class="font-weight-bold">“Education is the most powerful weapon which you can use to change the world” – Nelson Mandela. By sensitizing women online, we are making them 'sensitive' about many issues. This is the core of awareness raising and is what we ideally want to achieve – that people become aware and react to certain issues.</label>
+          </div>
+        </div>
+    </section>
+
+    <section class="maxwidth">
+      <h2 class="text-center mt-5">Our Yearly Magzine</h2>
+        <div class="redline"></div>
+        <div  class="d-flex justify-content-around mb-5">
+        <img src="images/mag.jpg" alt="magazine">
+        <img src="images/magazine1.jpg" alt="magazine">
+        </div>
+        <h5 class="text-center">Our yearly magazine is a digital and print magazine which features our women of substance. We showcase the stories of empowering women who have can have beaten the odds in life and made it to the top</h5>
+        <form action="#" class="redborder w-50 mx-auto my-5">
+            <label class="p-2 redbackground text-black font-weight-bold text-center">SUBSCRIBE TO RECIEVE OUR YEARLY MAGAZINE AND MONTHLY NEWSLETTER</label>
+            <div class="form-group" id="signup">
+                <input type="text" class="form-control" placeholder="Name">
+                <input type="email" class="form-control" placeholder="Email address">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+             <button type="submit" class="py-2 subscribe font-weight-bolder redtext text-center ">SUBSCRIBE</button>
+        </form>
+                      
     </section>
 
       <footer>
         <div class="maxwidth mx-auto">
               <div class="d-flex footericons justify-content-between py-3">
-                <span class="w-75 pl-3">2020 Copyrights</span>
+                <span class="w-75">2020 Copyrights</span>
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -57,7 +180,7 @@
                 <a href="#"><i class="fas fa-envelope"></i></a>
               </div>
               <ul class="d-inline-flex footerlinks justify-content-between">
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#" class="pl-0">Terms & Conditions</a></li>
                     <li><a href="#">Community</a></li>
                     <li><a href="#">Join Us</a></li>
                     <li><a href="#">Support Us</a></li>

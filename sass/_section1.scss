@@ -5,49 +5,51 @@
     color: white;
 
     .griddiv {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 5px;
+      display: grid;      
       margin-top: 10px;
+      width: 95%;
+      grid-template-columns: 1fr;
+
+      @media only screen and (min-width: 768px) {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      @media only screen and (min-width: 960px) {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+      }
 
       div {
           background-color: rgba(175, 168, 168, 0.116);
-          display: flex;
-          flex-direction: column;
-          text-align: center;
+          display: grid;
+          grid-template-columns: 1fr 3fr 5fr;
+          grid-template-rows: auto;
+          text-align: start;       
           border: 2px solid $dark;
           font-size: small;
           padding: 5px;
+          justify-content: center;
+          align-content: center;
+          
 
           h4 {
               color: $red;
-
-              @media screen and (max-width: 767px) {
-                align-self: center;
-                font-size: 1.5em;
-      }
+              align-self: center;
+              font-size: 1.5em;
           }
 
-          @media screen and (max-width: 767px) {
-            display: grid;
-            grid-template-columns: 1fr 3fr 5fr;
-            text-align: start;
-      }
+          @media only screen and (min-width: 768px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 2fr;
+            text-align: center;
+            align-items: start;
+          }
       }
 
        div:hover {
          border-color: $light; 
-      }
-
-      @media screen and (max-width: 960px) {
-          width: 80%;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 20px;
-      }
-
-      @media screen and (max-width: 767px) {
-          width: 95%;
-          grid-template-columns: 1fr;
       }
     }
     
