@@ -1,25 +1,26 @@
 header {
-    background-image: 
-      linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)),
-      url('../images/download.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    color: white;
+  background-image:
+    linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)),
+    url('../images/download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
 
-    h3,
-    h1 {
-        background: -webkit-linear-gradient(red, white);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    span {
-        display: inline-block;
-        width: 70%;
-        margin-top: 25px;
-    }
+  h3,
+  h1 {
+    background: -webkit-linear-gradient(red, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  span {
+    display: inline-block;
+    width: 70%;
+    margin-top: 25px;
+  }
 }

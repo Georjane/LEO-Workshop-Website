@@ -1,31 +1,28 @@
 footer {
-    div {
-        font-size: small;
-        @media screen and (min-width: 768px) {
-                             
-        }
-    }
-    img {
-        height: 100px;
-    }
+  div {
+    font-size: small;
+  }
 
-    .footericons a {
-        color: $dark;
-    }
+  img {
+    height: 100px;
+  }
 
-    .footerlinks {
-        
-        list-style-type: none;
+  .footericons a {
+    color: $dark;
+  }
 
-        a {
-            color: $dark;
-            text-decoration: none;
-            padding: 0 1vw;
-            border-right: rgba(255, 8, 0, 0.356) solid 1px;
-        }
-    }
+  .footerlinks {
+    list-style-type: none;
 
-    a:hover {
-        color: $red;
+    a {
+      color: $dark;
+      text-decoration: none;
+      padding: 0 1vw;
+      border-right: rgba(255, 8, 0, 0.356) solid 1px;
     }
+  }
+
+  a:hover {
+    color: $red;
+  }
 }
