@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="icon" href="images/logo1.jpg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css"> 
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
     <title>LEO Workshop 2020</title>
 </head>
 <body>
@@ -18,15 +21,22 @@
           <div class="navlinks d-md-flex justify-content-between align-items-center">          
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
-            <a href="#">Activities</a>
-            <a href="#">Tickets</a>
-            <a href="#">Contact Us</a> 
+            <a href="#" class="nav-link disabled">Activities</a>
+            <a href="#" class="active">Tickets</a>
+            <a href="#" class="nav-link disabled">Contact Us</a> 
             <button>Join Us</button>  
             </div>         
         </nav>
-        <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3">
-          <span class="fas fa-bars"></span>
-          <img class="navbar-brand img1" src="images/logo2.jpg" alt="LEO logo">
+        <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3 navbar ">        
+            <img class="navbar-brand img1" src="images/logo2.jpg" alt="LEO logo">         
+            <span class="fas fa-bars" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></span>
+            <div class="collapse navbar-collapse py-2" id="collapsibleNavbar">
+                <ul class="navbar-nav pl-3 float-right bg-light">
+                    <li class="navlinks "><a href="index.html">Home</a></li>
+                    <li class="navlinks"><a href="about.html">About Us</a></li>
+                    <li class="navlinks"><a  href="tickets.html">Tickets</a></li>
+                </ul>
+            </div>          
         </nav>
      </div>     
     <form action="#">

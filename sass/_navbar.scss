@@ -17,6 +17,8 @@ nav {
     .navlinks {
         width: 65%;
 
+        
+
         a {
             color: $dark;
         }
@@ -24,15 +26,22 @@ nav {
         a:hover {
               color: $red;
               text-decoration: none;
-            }       
+            } 
+            
+        .active {
+            color: $red;
+        }
     }
 
-    button {
+    div {
+        button {
         border: $red 4px solid;
         color: $red;
         padding: 5px 10px;
         background-color: white;
     }
+    }
+    
 }
 
 .smallnav {

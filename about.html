@@ -20,16 +20,23 @@
           <img class="navbar-brand" src="images/logo2.jpg" alt="LEO logo"> 
           <div class="navlinks d-md-flex justify-content-between align-items-center">          
             <a href="index.html">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Activities</a>
+            <a href="#" class="active">About Us</a>
+            <a href="#" class="nav-link disabled">Activities</a>
             <a href="tickets.html">Tickets</a>
-            <a href="#">Contact Us</a> 
+            <a href="#" class="nav-link disabled">Contact Us</a> 
             <button>Join Us</button>  
             </div>         
         </nav>
-        <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3">
-          <span class="fas fa-bars"></span>
-          <img class="navbar-brand img1" src="images/logo2.jpg" alt="LEO logo">
+        <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3 navbar ">        
+            <img class="navbar-brand img1" src="images/logo2.jpg" alt="LEO logo">         
+            <span class="fas fa-bars" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></span>
+            <div class="collapse navbar-collapse py-2" id="collapsibleNavbar">
+                <ul class="navbar-nav pl-3 float-right bg-light">
+                    <li class="navlinks "><a href="index.html">Home</a></li>
+                    <li class="navlinks"><a href="about.html">About Us</a></li>
+                    <li class="navlinks"><a  href="tickets.html">Tickets</a></li>
+                </ul>
+            </div>          
         </nav>
      </div>     
        
@@ -37,7 +44,7 @@
         <div class="maxwidth pl-3 py-5">
           <h3 class="d-lg-none text-center">Ladies Empowerment Organization Workshop 2020</h3>          
           <h3 class="display-4 d-none d-lg-block text-center">Ladies Empowerment Organization Workshop 2020</h3>
-          <p class="text-center w-75 mx-auto mt-4">LEO is group of Women making the world a better place by encouraging and changing the mindset of women. They have as slogan "Empower the many, mentors the few".<br>
+          <p class="text-center w-75 mx-auto mt-4">“Education is the most powerful weapon which you can use to change the world” – Nelson Mandela.<br>LEO is group of Women making the world a better place by encouraging and changing the mindset of women. They have as slogan "Empower the many, mentors the few".<br>
           Every year in commemoration of the world day for Women in Tech, they bring women together from across the globe under a single roof. These women interact with each other, share their experiences and encourage each other.<br> In addition to that, keynote speakers give them a thorough understanding of their personal and professional strengths in the Tech World. <br>Its a most attend workshop. Feedbacks gotten after these workshops are always so inspiring.</p>
           <h5 class="text-center mt-5">Feel free to email us at <a href="#" class="text-white-50">ladiesempowermentorg@gmail.com</a></h5>
         </div>        
@@ -48,109 +55,104 @@
         <div class="redline"></div>
         <div class="maxwidth activityshow">
         
-        <div id="slides1" class="carousel mb-5 slidediv" data-ride="carousel">
-          <label for="slides1" class="redtext font-weight-bolder">Leadership Seminars</label>        
-              <ul class="carousel-indicators">
-                <li data-target="#slides1" data-slide-to="0" class="active"></li>
-                <li data-target="#slides1" data-slide-to="1"></li>
-                <li data-target="#slides1" data-slide-to="2"></li>
-              </ul>
+            <div id="slides1" class="carousel mb-5 slidediv" data-ride="carousel">
+              <label for="slides1" class="redtext font-weight-bolder"><h4>Leadership Seminars</h4></label>        
+                  <ul class="carousel-indicators">
+                    <li data-target="#slides1" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides1" data-slide-to="1"></li>
+                    <li data-target="#slides1" data-slide-to="2"></li>
+                  </ul>
 
-             
-              <div class="carousel-inner redborder">
-                <div class="carousel-item active">
-                  <img src="images/seminar1.jpg" alt="Seminar">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/seminar2.jpg" alt="Seminar">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/seminar3.jpg" alt="Seminar">
-                </div>
-              </div>
+                
+                  <div class="carousel-inner redborder">
+                    <div class="carousel-item active">
+                      <img src="images/seminar1.jpg" alt="Seminar">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/seminar2.jpg" alt="Seminar">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/seminar3.jpg" alt="Seminar">
+                    </div>
+                  </div>
 
-             
-              <a class="carousel-control-prev" href="#slides1" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#slides1" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
+                
+                  <a class="carousel-control-prev" href="#slides1" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#slides1" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
 
-              <label for="slides1" class="font-weight-bold">As a leader of a team the expectations and needs of the people under her care and of the managers above her need to be faced. Leadership seminars are an opportunity to become aware of these and to learn how to competently react to them</label>
-          </div>
+                  <label for="slides1" class="font-weight-bold pt-3">As a leader of a team the expectations and needs of the people under her care and of the managers above her need to be faced. Leadership seminars are an opportunity to become aware of these and to learn how to competently react to them</label>
+            </div>        
+            <div id="slides2" class="carousel mb-5 slidediv" data-ride="carousel">
+            <label for="slides2" class="redtext font-weight-bolder"><h4>Outreach Programs</h4></label>
+                  <ul class="carousel-indicators">
+                    <li data-target="#slides2" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides2" data-slide-to="1"></li>
+                    <li data-target="#slides2" data-slide-to="2"></li>
+                  </ul>
 
+                
+                  <div class="carousel-inner redborder">
+                    <div class="carousel-item active">
+                      <img src="images/outreach1.jpg" alt="outreach">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/outreach2.jpg" alt="outreach">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/seminar2.jpg" alt="outreach">
+                    </div>
+                  </div>
 
-        
-        <div id="slides2" class="carousel mb-5 slidediv" data-ride="carousel">
-        <label for="slides2" class="redtext">Outreach Programs</label>
-              <ul class="carousel-indicators">
-                <li data-target="#slides2" data-slide-to="0" class="active"></li>
-                <li data-target="#slides2" data-slide-to="1"></li>
-                <li data-target="#slides2" data-slide-to="2"></li>
-              </ul>
+                
+                  <a class="carousel-control-prev" href="#slides2" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#slides2" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
 
-             
-              <div class="carousel-inner redborder">
-                <div class="carousel-item active">
-                  <img src="images/outreach1.jpg" alt="outreach">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/outreach2.jpg" alt="outreach">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/outreach3.jpg" alt="outreach">
-                </div>
-              </div>
+                  <label for="slides1" class="font-weight-bold pt-3">Programs designed to help and encourage disadvantaged members of the community by providing services to any population that might not otherwise have access to those services.</label>
+            </div>          
+            <div id="slides3" class="carousel mb-5 slidediv" data-ride="carousel">
+            <label for="slides3" class="redtext font-weight-bolder"><h4>Online Campaigns</h4></label>
+                  <ul class="carousel-indicators">
+                    <li data-target="#slides3" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides3" data-slide-to="1"></li>
+                    <li data-target="#slides3" data-slide-to="2"></li>
+                  </ul>
 
-             
-              <a class="carousel-control-prev" href="#slides2" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#slides2" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
+                
+                  <div class="carousel-inner redborder">
+                    <div class="carousel-item active">
+                      <img src="images/online1.jpg" alt="campaigns" class="activityimg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/online2.jpg" alt="campaigns" class="activityimg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/online3.jpg" alt="campaigns" class="activityimg">
+                    </div>
+                  </div>
 
-              <label for="slides1" class="font-weight-bold">Programs designed to help and encourage disadvantaged members of the community by providing services to any population that might not otherwise have access to those services.</label>
-          </div>
+                
+                  <a class="carousel-control-prev" href="#slides3" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#slides3" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
 
-          
-        <div id="slides3" class="carousel mb-5 slidediv" data-ride="carousel">
-        <label for="slides3" class="redtext">Online Campaigns</label>
-              <ul class="carousel-indicators">
-                <li data-target="#slides3" data-slide-to="0" class="active"></li>
-                <li data-target="#slides3" data-slide-to="1"></li>
-                <li data-target="#slides3" data-slide-to="2"></li>
-              </ul>
-
-             
-              <div class="carousel-inner redborder">
-                <div class="carousel-item active">
-                  <img src="images/online1.jpg" alt="campaigns" class="activityimg">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/online2.jpg" alt="campaigns" class="activityimg">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/online3.jpg" alt="campaigns" class="activityimg">
-                </div>
-              </div>
-
-             
-              <a class="carousel-control-prev" href="#slides3" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#slides3" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-
-              <label for="slides1" class="font-weight-bold">“Education is the most powerful weapon which you can use to change the world” – Nelson Mandela. By sensitizing women online, we are making them 'sensitive' about many issues. This is the core of awareness raising and is what we ideally want to achieve – that people become aware and react to certain issues.</label>
-          </div>
+                  <label for="slides1" class="font-weight-bold pt-3"> By sensitizing women online, we are making them 'sensitive' about many issues. This is the core of awareness raising and is what we ideally want to achieve – that people become aware and react to certain issues.</label>
+            </div>
         </div>
     </section>
 
     <section class="maxwidth">
-      <h2 class="text-center mt-5">Our Yearly Magzine</h2>
+      <h2 class="text-center mt-5">Our Yearly Magazine</h2>
         <div class="redline"></div>
         <div  class="d-flex justify-content-around mb-5">
         <img src="images/mag.jpg" alt="magazine">

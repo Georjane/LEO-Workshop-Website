@@ -10,6 +10,8 @@
 
 body {
   font-family: 'Lato', sans-serif;  
+  max-width: 1500px;
+  margin: auto;
 }
 
 .maxwidth {
@@ -56,3 +58,6 @@ body {
     height: 100%;
   }
 
+.partner {
+  height: 80px;
+}
