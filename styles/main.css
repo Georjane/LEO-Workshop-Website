@@ -48,7 +48,7 @@ nav {
     font-size: 30px; }
 
 header {
-  background-image: linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)), url("/images/download.jpg");
+  background-image: linear-gradient(to top right, rgba(24, 25, 27, 0.952), rgba(21, 39, 201, 0.541)), url("../images/download.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
