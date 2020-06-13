@@ -39,11 +39,22 @@ This project covers the following HTML and CSS3 concepts
 To get a local copy of this repository, please run the following commands on your terminal
 
 ```
-$ cd <folder>
+$ cd <LEO Workshop>
 ```
 
 ```
-$ git clone 
+$ git clone https://github.com/Georjane/LEO-Workshop-Website.git
+```
+
+To install the required sass node modules
+
+```
+$ npm install
+```
+Run SASS on command line to automatically compile to style.css
+
+```
+$ npm run sass-compile
 ```
 
 ## Author
