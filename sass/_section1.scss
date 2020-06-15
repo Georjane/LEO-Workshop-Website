@@ -1,0 +1,70 @@
+.sec1 {
+  background-color: $dark;
+  background-image: url("../sass/x.png");
+  background-repeat: repeat;
+  color: white;
+
+  .griddiv {
+    display: grid;
+    margin-top: 10px;
+    width: 95%;
+    grid-template-columns: 1fr;
+
+    @media only screen and (min-width: 768px) {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    @media only screen and (min-width: 960px) {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 5px;
+    }
+
+    div {
+      background-color: rgba(175, 168, 168, 0.116);
+      display: grid;
+      grid-template-columns: 1fr 3fr 5fr;
+      grid-template-rows: auto;
+      text-align: start;
+      border: 2px solid $dark;
+      font-size: small;
+      padding: 5px;
+      justify-content: center;
+      align-content: center;
+
+      h4 {
+        color: $red;
+        align-self: center;
+        font-size: 1.5em;
+      }
+
+      @media only screen and (min-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 2fr;
+        text-align: center;
+        align-items: start;
+      }
+    }
+
+    div:hover {
+      border-color: $light;
+    }
+  }
+
+  i {
+    font-size: 2em;
+    align-self: center;
+    justify-self: center;
+    margin: 0.3em;
+  }
+
+  button {
+    background-color: $red;
+    color: white;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "leo-workshop-website",
+  "version": "1.0.0",
+  "description": "A workshop page",
+  "main": "index.html",
+  "scripts": {
+    "sass-compile": "node-sass sass/main.scss styles/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georjane/LEO-Workshop-Website.git"
+  },
+  "author": "Jane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georjane/LEO-Workshop-Website/issues"
+  },
+  "homepage": "https://github.com/Georjane/LEO-Workshop-Website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

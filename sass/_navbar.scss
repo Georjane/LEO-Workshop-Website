@@ -1,0 +1,51 @@
+.navdiv {
+  background-color: white;
+  border-bottom: $red 3px solid;
+}
+
+nav {
+  height: 90px;
+
+  img {
+    height: 80px;
+  }
+
+  .img1 {
+    height: 40px;
+  }
+
+  .navlinks {
+    width: 65%;
+
+    a {
+      color: $dark;
+    }
+
+    a:hover {
+      color: $red;
+      text-decoration: none;
+    }
+
+    .active {
+      color: $red;
+    }
+  }
+
+  div {
+    button {
+      border: $red 4px solid;
+      color: $red;
+      padding: 5px 10px;
+      background-color: white;
+    }
+  }
+}
+
+.smallnav {
+  height: 50px;
+  padding-top: 10px;
+
+  .fa-bars {
+    font-size: 30px;
+  }
+}
