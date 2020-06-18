@@ -32,7 +32,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Georjane/LEO-Workshop-Website/feature-workshop/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Georjane/LEO-Workshop-Website/59e90b5cb81d339ce81902e02f5d79dc76c46ec1/index.html)
 
 
 ## Getting Started
