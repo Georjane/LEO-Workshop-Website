@@ -16,7 +16,9 @@
     "url": "https://github.com/Georjane/LEO-Workshop-Website/issues"
   },
   "homepage": "https://github.com/Georjane/LEO-Workshop-Website#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bcrypt": "^5.0.0"
+  },
   "devDependencies": {
     "node-sass": "^4.14.1"
   }
